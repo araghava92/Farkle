@@ -1,0 +1,178 @@
+body {
+	background: #000;
+	background: url('../images/diagmonds.png');
+}
+aside {
+	display: none;
+}
+a {
+	color: #7848fe;
+	text-decoration: none;
+	font-size: 20px;
+}
+a:hover, a:visited, a:focus {
+	color: #7848fe;
+	text-decoration: underline;
+}
+ul {
+	list-style-type: none;
+	color: #AFF584;
+}
+.row.full-width {width: 1220px;}
+.die-container {
+	max-width: 540px;
+	margin: 0 auto;
+}
+img {
+	margin: 15px 3px;
+	opacity: 1;
+}
+.faded {
+	opacity: 0.5;
+}
+.more-faded {
+	opacity: 0.15;
+}
+#roll-score {
+	font-size: 26px;
+}
+.roll-score {
+	text-align:center;
+	margin-top: 5px;
+	margin: 5px -10px 0;
+	padding: 2px;
+	background: #111;
+	color: #5FF900;
+	border-radius: 3px;
+	border: 1px solid #444;
+}
+#roll-button, #bank-button {
+	margin: 5px;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	cursor: pointer;
+	color: white;
+	padding: 6px 8px;
+	border-radius: 5px;
+}
+#bank-button {
+	background: #62A837;
+}
+#roll-button {
+	background: #6F38C2;
+}
+#roll-button:hover {
+	background: #5D2AAA;
+}
+#bank-button:hover {
+	background: #589930
+}
+p#personalize {
+	text-align: left;
+	font-size: 18px;
+	font-weight: bold;
+}
+h1.site-title {
+	text-align: center;
+	color: #D8F0CA;
+	clear: both;
+	margin: 32px 0;
+	font-size: 36px;
+}
+.panel h2 {color: #D8F0CA;
+	font-size: 24px;
+	margin-top: 0;
+	margin-bottom: 7px;
+}
+.add-margin {
+	margin-top: -20px;
+}
+.panel {
+	padding: 15px 15px 5px;
+	margin-bottom: 17px;
+	background: #111;
+	border-radius: 5px;
+	border: 1px solid #444;
+}
+p {
+	line-height: 1.2;
+}
+aside p {
+	font-style: normal;
+}
+p.show-hide {
+	font-size: 20px;
+	margin: 10px 15px 30px;
+}
+p#instructions {
+	color: #D8F0CA;
+	font-size: 23px;
+	min-height: 28px;
+	margin-left: 15px;
+}
+p#instructions {
+	margin: 15px 15px 20px;
+	color: #AFF584;
+}
+#instructions a {
+	font-size: 23px;
+}
+#rules, #reset {
+	margin-left: 3px;
+}
+.player1 p, .player2 p {
+	color: #5FF900;
+	font-size: 20px;
+	margin-bottom: 7px;
+}
+.rules p {
+	font-size: 16px;
+	color: #AFF584;
+}
+.rules a {
+	font-size: 16px;
+}
+.rules h1 {
+	font-size: 30px;
+	color: #D8F0CA;
+}
+.rules h2 {
+	font-size: 24px;
+	color: #D8F0CA;
+}
+.rules  {
+	background: #111;
+	padding: 8px 12px;
+	border-radius: 5px;
+	border: 1px solid #444;
+}
+p.promo {
+	color: #7848fe;
+	text-align: center;
+	margin: 90px 0 20px;
+}
+@media only screen and (max-width: 400px) {
+	.die-container {
+		margin-left: 15px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	h1 {
+		font-size: 30px;
+	}
+	h1.site-title {
+		margin: 20px 0 5px;
+	}
+	p.promo {
+		margin: 20px 0;
+	}
+	.roll-score {
+		margin: 5px 80px;
+	}
+	#bank-button {
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+}
+
